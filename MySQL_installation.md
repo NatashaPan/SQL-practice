@@ -3,8 +3,8 @@ Windows安裝請繞道
 http://www.codedata.com.tw/database/mysql-tutorial-database-abc-mysql-installation/
 
 ## Mac/Linux 安裝 MySQL 以及 mysql workbench 如下：
-1.參考官方文件，下載MySQL Server: https://dev.mysql.com/doc/refman/5.6/en/osx-installation-pkg.html ＊安裝完會自動幫你設定是root user跟配一組臨時密碼給你，找地方存起來 （超重要！！！）
-2.從terminal去到MySQL安裝的folder (e.g. /usr/local/mysql-5.7.21-macos10.13-x86_64，我們要將這個資料夾設為$MYSQL_HOME
+<br>1.參考官方文件，下載MySQL Server: https://dev.mysql.com/doc/refman/5.6/en/osx-installation-pkg.html ＊安裝完會自動幫你設定是root user跟配一組臨時密碼給你，找地方存起來 （超重要！！！）
+<br>2.從terminal去到MySQL安裝的folder (e.g. /usr/local/mysql-5.7.21-macos10.13-x86_64，我們要將這個資料夾設為$MYSQL_HOME
 i. vim ~/.bashrc (如果你跟我一樣使用zshshell，請輸入vim ~/.zshrc）
 ii. 拉到最底下進行編輯(按i)，加入以下三行
 iii. ## MYSQL
