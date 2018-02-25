@@ -1,8 +1,8 @@
-MySQL 安裝筆記：
+## MySQL 安裝筆記：
 Windows安裝請繞道
 http://www.codedata.com.tw/database/mysql-tutorial-database-abc-mysql-installation/
 
-Mac/Linux 安裝 MySQL 以及 mysql workbench 如下：
+## Mac/Linux 安裝 MySQL 以及 mysql workbench 如下：
 1.參考官方文件，下載MySQL Server: https://dev.mysql.com/doc/refman/5.6/en/osx-installation-pkg.html ＊安裝完會自動幫你設定是root user跟配一組臨時密碼給你，找地方存起來 （超重要！！！）
 2.從terminal去到MySQL安裝的folder (e.g. /usr/local/mysql-5.7.21-macos10.13-x86_64，我們要將這個資料夾設為$MYSQL_HOME
 i. vim ~/.bashrc (如果你跟我一樣使用zshshell，請輸入vim ~/.zshrc）
@@ -24,13 +24,13 @@ a. 在 mysql> 輸入 ALTER USER ‘root’@’localhost’ IDENTIFIED BY ‘新�
 6.完成囉！在mysql>  後面可以打任何sql指令對MySQL進行CRUD(增刪改查)
 
 
-如果你想要更漂亮的GUI介面，可以下載mysql workbench (https://dev.mysql.com/downloads/workbench/）
+## 如果你想要更漂亮的GUI介面，可以下載mysql workbench (https://dev.mysql.com/downloads/workbench/）
 1. 將MySQLWorkbench的圖是按照箭頭方向拖曳至Applications
 2. 安裝好之後將MySQLWorkbench安裝檔退出
 3. 到Applications單擊MySQLWorkbench，將它置於dock中
 4. 雙擊單擊MySQLWorkbench，GUI就打開囉！
 5. 進入MySQLWorkbench的第一件事，就是在mysql workbench加入一個新的connection (按照我workbench screenshot那樣，密碼打入你剛剛重置的新密碼）然後應該就會連線上去，那邊你的query就可以寫在裡面執行。＊localhost:3306，代表mysql裝在你本地電腦，開放連接的port號是預設的3306
 
-Reference:
+## References:
 https://megansunblog.wordpress.com/2017/06/02/mysql安裝-mac安裝mysql資料庫的方法/
 https://www.digitalocean.com/community/tutorials/a-basic-mysql-tutorial
