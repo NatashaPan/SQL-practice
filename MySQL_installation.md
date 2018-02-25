@@ -25,7 +25,7 @@ http://www.codedata.com.tw/database/mysql-tutorial-database-abc-mysql-installati
 
 
 ## 如果你想要更漂亮的GUI介面，可以下載mysql workbench (https://dev.mysql.com/downloads/workbench/）
-<br><br>1. 將MySQLWorkbench的圖是按照箭頭方向拖曳至Applications
+<br>1. 將MySQLWorkbench的圖是按照箭頭方向拖曳至Applications
 <br><br>2. 安裝好之後將MySQLWorkbench安裝檔退出
 <br><br>3. 到Applications單擊MySQLWorkbench，將它置於dock中
 <br><br>4. 雙擊單擊MySQLWorkbench，GUI就打開囉！
