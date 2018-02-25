@@ -1,7 +1,7 @@
 This project includes two sql scripts(cmdev.sql, world.sql) to create databases required in the practice.
-And a sql script, i.e. mynotes.sql, that includes instantly-runnable commands covering the following topics: 
+<br>And a sql script, i.e. mynotes.sql, that includes instantly-runnable commands covering the following topics: 
 
-CRUD, join and union, subquery, MySQL datatypes intro, commonly-used functions, and toy-data.
+<strong>CRUD, join and union, subquery, MySQL datatypes intro, commonly-used functions, and toy-data.
 
 I use mynotes.sql as a detailed reminder, but it can also be used as a tutorial for SQL-beginners.
 
